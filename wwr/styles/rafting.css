@@ -35,7 +35,7 @@ footer a{
     width: 100%;
     height: auto;
 }
-.hero h1, article{
+div h1, article{
     position: absolute;
 }
 .hero article img{
