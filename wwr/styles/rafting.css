@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --primary-color: #fb8500;
+    --secondary-color: #8ecae6;
+    --accent1-color: #219ebc;
+    --accent2-color: #ffb703;
+    --heading-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
+    --nav-background-color: #219ebc;
+    --nav-link-color:#fb8500;
+    --nav-hover-link-color: #ffb703;
+    --nav-hover-background-color: #8ecae6;
+}
+body{
+    width: 1000px;
+}
+img{
+    max-width: 400px;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+a{
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1, article{
+    position: absolute;
+}
+.hero article img{
+    float: right;
+}
