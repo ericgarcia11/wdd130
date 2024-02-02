@@ -10,7 +10,7 @@
     --nav-link-color:#fb8500;
     --nav-hover-link-color: #ffb703;
     --nav-hover-background-color: #8ecae6;
-}
+} 
 body{
     width: 1000px;
 }
@@ -29,6 +29,7 @@ footer a{
 }
 .hero{
     position: relative;
+    display: flex;
 }
 .hero img{
     display: block;
@@ -41,3 +42,96 @@ div h1, article{
 .hero article img{
     float: right;
 }
+header{
+    margin: 1rem auto;
+    padding: 8px;
+    width: 100%;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+    /* border: 1px solid red ; */
+    background-color: var(--nav-background-color); 
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    height: 700;
+}
+
+header img{
+    order: 0;
+    margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;  
+}
+
+header nav{
+    order: 2;
+    display: flex;
+	text-align: right;
+    justify-content: space-between;
+    color: var(--nav-link-color);
+}
+
+header nav :hover{
+    background-color: var(--nav-hover-background-color);
+}
+
+header nav a{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+header nav a :hover{
+    color: var(--nav-hover-link-color);
+}
+
+section{
+    flex-direction: row;
+    justify-items: space-around;
+}
+section img{
+    max-width: 7vw;
+    height: auto;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+figure{
+    display: flex;
+    flex-direction: column ;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: var(--nav-background-color); 
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    height: 700;
+}
+
+footer p{
+    grid-column: 4/7;
+    justify-items: center;
+}
+
+footer nav{
+    grid-column: 7/10;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: var(--nav-link-color);
+}
+
+footer nav img{
+    grid-column: 1/3;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5%;
+    max-width: 25px;
+}
+
+
