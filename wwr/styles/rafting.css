@@ -36,7 +36,7 @@ footer a{
     width: 100%;
     height: auto;
 }
-div h1, article{
+.hero div h1, article{
     position: absolute;
 }
 .hero article img{
@@ -115,7 +115,7 @@ footer{
 }
 
 footer p{
-    grid-column: 4/7;
+    grid-column: 4/7; 
     justify-items: center;
 }
 
