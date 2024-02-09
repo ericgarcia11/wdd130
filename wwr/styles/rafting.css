@@ -88,7 +88,6 @@ header nav a :hover{
 
 section{
     flex-direction: row;
-    /* justify-items: space-around; */
 }
 section img{
     max-width: 7vw;
@@ -99,7 +98,7 @@ section img{
     display: flex;
     flex-direction: row;
 }
-
+ 
 figure{
     display: flex;
     flex-direction: column ;
