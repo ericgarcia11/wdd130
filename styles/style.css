@@ -29,6 +29,7 @@ main img{
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
+    float: right;
     box-shadow: 0 0 30px gray;
 }
 
@@ -62,7 +63,7 @@ header, footer, .grid {
     margin: 0 auto;
 }
 
-/* class selectors */
+/* Class Selectors */
 .box{
     /* margin: 1rem; */
     border: 1px solid rgba(0, 0, 0, 0.1);
