@@ -32,7 +32,6 @@ form{
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.5rem;
     background-color: #eee;
-    display: absolute;
 }
 
 label, input, button, select, textarea{
