@@ -17,7 +17,7 @@ body{
 img{
     max-width: 400px;
 }
-h1, h2{
+h1, h2, h3, h4, h5, h6, label{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -88,6 +88,11 @@ header nav a :hover{
 
 section{
     flex-direction: row;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
 }
 section img{
     max-width: 7vw;
@@ -97,11 +102,14 @@ section img{
 .images{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
  
 figure{
     display: flex;
     flex-direction: column ;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -133,4 +141,63 @@ footer nav img{
     max-width: 25px;
 }
 
+iframe{
+    border:0;
+    margin: 10px;
+}
 
+form{
+    margin: 10px;
+    max-width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 500px;
+    margin: 10px auto;
+    padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    background-color: #ebebeb;
+}
+
+.input{
+    margin: 10px;
+    display: grid;
+    justify-items: center;
+
+}
+
+.textarea{
+    width: 40%;
+    margin:10px;
+    display: grid;
+}
+
+.checkbox{
+    height: 18px;
+    width: 18px;
+}
+
+button{
+    height: 38px;
+    background-color: var(--nav-background-color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: var(--nav-hover-background-color);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
