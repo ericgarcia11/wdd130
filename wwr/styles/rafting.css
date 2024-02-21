@@ -263,7 +263,7 @@ a{
     text-decoration: none;
 }
 #call-to-action:hover {
-    filter: brightness(0.8); /* escurece a imagem em 20% */
+    filter: brightness(0.8); 
 }
 #call-to-action button{
     width: 30%;
@@ -283,4 +283,92 @@ a{
 
 #trip-button:hover{
     background-color: var(--nav-hover-background-color);
+}
+
+#home-slogan{
+    background-image: url('/wdd130/wwr/images/banner-button-contact-us.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: brightness(0.8);
+    text-align: center;
+}
+
+#home-slogan h1{
+    color: white;
+    filter: brightness(1);
+    margin: 60px;
+}
+
+.call-to-action-home{
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-home form{
+    max-height: 100px;
+    max-width: 50px;
+}
+
+.call-to-action-home button{
+    max-width: 100%;
+}
+
+.home-newsletter{
+    /* border: 1px solid red; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-newsletter form{
+    max-width: 370px;
+    /* border: 1px solid red; */
+    margin: 0px;
+}
+
+.home-newsletter div{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color:  rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.caption h3 {
+    margin-top: 0;
+}
+
+.caption p {
+    margin-bottom: 0;
+    font-family: var(--paragraph-font);
 }
