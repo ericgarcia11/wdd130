@@ -268,3 +268,19 @@ a{
 #call-to-action button{
     width: 30%;
 }
+
+#trip-button{
+    height: 38px;
+    background-color: var(--nav-background-color);
+    font-family: var(--heading-font);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#trip-button:hover{
+    background-color: var(--nav-hover-background-color);
+}
