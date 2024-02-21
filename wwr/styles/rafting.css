@@ -235,7 +235,7 @@ a{
     justify-self: center;
 }
 
-.trips-stories figcaption{
+.trips-stories p{
     grid-column: 2;
     grid-row: 2/ span 2;
     text-align: left;
@@ -259,6 +259,8 @@ a{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    align-items: center;
+    text-decoration: none;
 }
 #call-to-action:hover {
     filter: brightness(0.8); /* escurece a imagem em 20% */
